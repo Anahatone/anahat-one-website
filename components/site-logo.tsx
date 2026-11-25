@@ -39,7 +39,7 @@ export function SiteLogo({
       {/* Brand Text */}
       {showText && (
         <span className={`text-base font-bold tracking-[0.25em] ${textColor} uppercase transition-colors`}>
-          ANAHAT <span className="text-muted-foreground/70 font-medium">ONE</span>
+          ANAHAT <span className="text-muted-foreground/70 font-medium">AURA</span>
         </span>
       )}
     </div>
