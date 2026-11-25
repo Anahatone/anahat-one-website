@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { LegalPage } from "@/components/legal-page"
+import { ADDRESS_ONE_LINE } from "@/lib/company"
 
 export const metadata: Metadata = {
   title: "Terms of Use — Anahat Aura LLP",
@@ -59,7 +60,7 @@ export default function TermsPage() {
       <section>
         <h2>Contact</h2>
         <p>
-          <strong>Anahat Aura LLP</strong> · Bengaluru, Karnataka, India ·{" "}
+          <strong>Anahat Aura LLP</strong> · {ADDRESS_ONE_LINE} ·{" "}
           <a href="mailto:admin@anahatone.com">admin@anahatone.com</a> ·{" "}
           <a href="tel:+918041488280">+91 80414 88280</a>
         </p>

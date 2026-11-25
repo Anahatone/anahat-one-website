@@ -1,4 +1,5 @@
 import { SiteLogo } from "@/components/site-logo"
+import { ADDRESS_ONE_LINE } from "@/lib/company"
 
 export function SiteFooter() {
   return (
@@ -17,7 +18,7 @@ export function SiteFooter() {
           <p className="text-sm text-muted-foreground" suppressHydrationWarning>
             &copy; {new Date().getFullYear()} Anahat Aura LLP (LLPIN ACY-2870). All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground/70">Registered in Bengaluru, Karnataka, India</p>
+          <p className="max-w-md text-xs text-muted-foreground/70">Registered office: {ADDRESS_ONE_LINE}</p>
         </div>
       </div>
     </footer>
