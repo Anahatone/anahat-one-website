@@ -22,7 +22,7 @@ export function WhySection() {
     <section id="why" className="scroll-mt-20 border-t border-border py-14 md:py-32">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="max-w-2xl">
-          <span className="text-xs font-medium tracking-[0.25em] text-primary">WHY ANAHAT ONE</span>
+          <span className="text-xs font-medium tracking-[0.25em] text-primary">WHY ANAHAT AURA</span>
           <h2 className="mt-4 text-balance font-serif text-3xl font-medium leading-tight text-foreground md:text-5xl">
             The principles behind everything we build.
           </h2>

@@ -11,7 +11,7 @@ export function AboutSection() {
           </div>
           <div className="md:col-span-7">
             <p className="text-pretty text-base leading-relaxed md:text-lg text-muted-foreground">
-              At Anahat One, we believe great companies are built on a shared foundation of craft, integrity, and an
+              At Anahat Aura, we believe great companies are built on a shared foundation of craft, integrity, and an
               obsession with the details others overlook. From the homes we host to the software we ship and the
               hardware we engineer, every venture carries the same promise.
             </p>

@@ -19,9 +19,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Anahat One — One Vision, Many Ventures',
+  title: 'Anahat Aura — One Vision, Many Ventures',
   description:
-    'Anahat One is a multi-venture company building premium hospitality, intelligent software products, and precision hardware solutions under one roof.',
+    'Anahat Aura is a multi-venture company building premium hospitality, intelligent software products, and precision hardware solutions under one roof.',
   generator: 'v0.app',
   icons: {
     icon: [

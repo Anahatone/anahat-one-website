@@ -48,7 +48,7 @@ export function HeroSection() {
             Where people and purpose feel right at home.
           </h1>
           <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            Anahat One is a family of ventures — warm hospitality (
+            Anahat Aura is a family of ventures — warm hospitality (
             <a 
               href="https://www.airbnb.co.uk/rooms/1259883871507298681?unique_share_id=087b05f8-8da6-4a0a-bb70-3a6b7fcf9387&amp;viralityEntryPoint=1&amp;s=76" 
               target="_blank" 

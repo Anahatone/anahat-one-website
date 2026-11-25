@@ -4,7 +4,7 @@ const contacts = [
   { icon: Mail, label: "Email us", value: "admin@anahatone.com", href: "mailto:admin@anahatone.com" },
   { icon: Phone, label: "Call us", value: "+91 80414 88280", href: "tel:+918041488280" },
   { icon: MapPin, label: "Visit us", value: "Bengaluru, India", href: "https://maps.google.com/?q=Bengaluru,India" },
-  { icon: Building2, label: "LLP Identification No.", value: "LLPIN: ACY-2870" },
+  { icon: Building2, label: "Registered entity", value: "Anahat Aura LLP · LLPIN ACY-2870" },
 ]
 
 export function ContactSection() {
