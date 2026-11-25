@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { LegalPage } from "@/components/legal-page"
+import { ADDRESS_LINES } from "@/lib/company"
 
 export const metadata: Metadata = {
   title: "Privacy Policy — Anahat Aura LLP",
@@ -73,8 +74,12 @@ export default function PrivacyPage() {
         <p>
           <strong>Anahat Aura LLP</strong>
           <br />
-          Bengaluru, Karnataka, India
-          <br />
+          {ADDRESS_LINES.map((l) => (
+            <span key={l}>
+              {l}
+              <br />
+            </span>
+          ))}
           Email: <a href="mailto:admin@anahatone.com">admin@anahatone.com</a>
           <br />
           Phone: <a href="tel:+918041488280">+91 80414 88280</a>
